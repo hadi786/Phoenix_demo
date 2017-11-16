@@ -15,7 +15,7 @@ use Mix.Config
 # which you typically run after static files are built.
 config :phoenix_demo, PhoenixDemoWeb.Endpoint,
   load_from_system_env: true,
-  url: [scheme: "https", host: "my-phoenix-demo.herokuapp.com", port: 443],
+  url: [scheme: "https", host: "protected-plateau-70748.herokuapp.com", port: 443],
   force_ssl: [rewrite_on: [:x_forwarded_proto]],
   cache_static_manifest: "priv/static/cache_manifest.json"
 
